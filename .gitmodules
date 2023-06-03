@@ -1,0 +1,6 @@
+[submodule "OMKParser.jl"]
+	path = OMKParser.jl
+	url = https://github.com/dev-manuel/OMKParser.jl
+[submodule "MKAbsyn.jl"]
+	path = MKAbsyn.jl
+	url = https://github.com/dev-manuel/MKAbsyn.jl
