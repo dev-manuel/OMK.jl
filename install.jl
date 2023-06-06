@@ -1,8 +1,7 @@
 using Pkg
 
 
-# @info "Installing OM.jl"
-# @time include("OM.jl/install.jl")
+
 
 @info "Developing sub-packages"
 subPkgs = joinpath.(
@@ -12,6 +11,7 @@ subPkgs = joinpath.(
     "MetaModelica.jl",
     "MKAbsyn.jl",
     "OMKParser.jl",
+    "OM.jl"
   ])
 
 
@@ -21,6 +21,9 @@ end
 
 @info "Developing OMK.jl"
 @time Pkg.develop(path=pwd())
+
+@info "The parser needs some external libraries. Build OM"
+@time Pkg.build("OM")
 
 @info "The parser needs some external libraries. Build the parser"
 @time Pkg.build("OMKParser")
