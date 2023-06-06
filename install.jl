@@ -8,6 +8,8 @@ using Pkg
 subPkgs = joinpath.(
   pwd(),
   [
+    "ImmutableList.jl",
+    "MetaModelica.jl",
     "MKAbsyn.jl",
     "OMKParser.jl",
   ])
@@ -25,9 +27,3 @@ end
 
 @info "Installing auxilary dependencies"
 @time Pkg.add("Revise")
-
-@info "precompiling and running tests"
-@time include("run.jl")
-
-@info "Running tests again (but much faster)"
-@time include("run.jl")
