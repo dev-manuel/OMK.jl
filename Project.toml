@@ -1,0 +1,21 @@
+name = "OMK"
+uuid = "80778e7a-47f9-4082-9e87-3ea9ecc883ce"
+authors = ["Manuel Krombholz <manuel_krofficia@online.de>","johti <johti17@liu.se>"]
+version = "0.0.1"
+
+[deps]
+MKAbsyn = "4fcd8881-e130-45ae-8f8b-cd5c1340e0fc"
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+OMKParser = "2c54b994-9301-4e2a-a5cc-a7604ce4b9e0"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+[extras]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.7"
+
+[targets]
+test = ["Test"]
