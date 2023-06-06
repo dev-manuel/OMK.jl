@@ -9,3 +9,9 @@
 [submodule "OM.jl"]
 	path = OM.jl
 	url = https://github.com/JKRT/OM.jl
+[submodule "MetaModelica.jl"]
+	path = MetaModelica.jl
+	url = https://github.com/OpenModelica/MetaModelica.jl/
+[submodule "ImmutableList.jl"]
+	path = ImmutableList.jl
+	url = https://github.com/OpenModelica/ImmutableList.jl/
