@@ -4,3 +4,8 @@
 [submodule "MKAbsyn.jl"]
 	path = MKAbsyn.jl
 	url = https://github.com/dev-manuel/MKAbsyn.jl
+
+
+[submodule "OM.jl"]
+	path = OM.jl
+	url = https://github.com/JKRT/OM.jl
