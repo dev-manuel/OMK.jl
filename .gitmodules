@@ -18,3 +18,9 @@
 [submodule "MKAbsynCodeGen.jl"]
 	path = MKAbsynCodeGen.jl
 	url = https://github.com/dev-manuel/MKAbsynCodeGen.jl
+[submodule "ArrayUtil.jl"]
+	path = ArrayUtil.jl
+	url = https://github.com/JKRT/ArrayUtil.jl
+[submodule "ListUtil.jl"]
+	path = ListUtil.jl
+	url = https://github.com/JKRT/ListUtil.jl
