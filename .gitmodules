@@ -15,3 +15,6 @@
 [submodule "ImmutableList.jl"]
 	path = ImmutableList.jl
 	url = https://github.com/OpenModelica/ImmutableList.jl/
+[submodule "MKAbsynCodeGen.jl"]
+	path = MKAbsynCodeGen.jl
+	url = https://github.com/dev-manuel/MKAbsynCodeGen.jl
